@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kano_vas/cpp/poker/include/card.hpp
+bits/c++config.h
+-
+exceptions.hpp
+/home/kano_vas/cpp/poker/include/exceptions.hpp
+iostream
+-
+vector
+-
+
+/home/kano_vas/cpp/poker/include/combination.hpp
+card.hpp
+/home/kano_vas/cpp/poker/include/card.hpp
+algorithm
+-
+
+/home/kano_vas/cpp/poker/include/exceptions.hpp
+exception
+-
+
+/home/kano_vas/cpp/poker/include/player.hpp
+bits/c++config.h
+-
+string
+-
+card.hpp
+/home/kano_vas/cpp/poker/include/card.hpp
+combination.hpp
+/home/kano_vas/cpp/poker/include/combination.hpp
+../include/exceptions.hpp
+/home/kano_vas/cpp/poker/include/exceptions.hpp
+
+/home/kano_vas/cpp/poker/src/player.cpp
+../include/player.hpp
+/home/kano_vas/cpp/poker/include/player.hpp
+

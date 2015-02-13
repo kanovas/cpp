@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kano_vas/cpp/dfs/dfs.hpp
+stack
+-
+functional
+-
+vector
+-
+fstream
+-
+iostream
+-
+exceptions.hpp
+/home/kano_vas/cpp/dfs/exceptions.hpp
+
+/home/kano_vas/cpp/dfs/exceptions.hpp
+exception
+-
+
+/home/kano_vas/cpp/dfs/main.cpp
+iostream
+-
+dfs.hpp
+/home/kano_vas/cpp/dfs/dfs.hpp
+

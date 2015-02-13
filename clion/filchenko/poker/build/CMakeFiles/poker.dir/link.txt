@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/poker.dir/main.cpp.o CMakeFiles/poker.dir/src/player.cpp.o CMakeFiles/poker.dir/src/card.cpp.o CMakeFiles/poker.dir/src/combination.cpp.o  -o poker -rdynamic 

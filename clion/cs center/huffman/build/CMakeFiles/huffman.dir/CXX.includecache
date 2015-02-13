@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kano_vas/tmp/huffman/huffman.cpp
+huffman.hpp
+/home/kano_vas/tmp/huffman/huffman.hpp
+
+/home/kano_vas/tmp/huffman/huffman.hpp
+fstream
+-
+iostream
+-
+algorithm
+-
+string
+-
+stdexcept
+-
+vector
+-
+
+/home/kano_vas/tmp/huffman/main.cpp
+huffman.hpp
+/home/kano_vas/tmp/huffman/huffman.hpp
+

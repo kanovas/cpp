@@ -1,0 +1,1 @@
+/home/kano_vas/cpp home/clion/anagrams/CMakeFiles/anagrams.dir
